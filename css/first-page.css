@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Fascinate+Inline&family=Fredoka:wght@300;400&family=Montserrat:wght@300;500&family=Noto+Serif:wght@400;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Fredoka:wght@300;400&family=Montserrat:wght@300;500&family=Noto+Serif:wght@400;700&display=swap');
 
 * {
@@ -77,7 +79,7 @@ p{
     text-align: justify;
     padding: 2rem;
 }
-.first-p::first-letter {
+p::first-letter {
     font-family: 'Cinzel Decorative', cursive;
     font-size: 4rem;
     float: left;
