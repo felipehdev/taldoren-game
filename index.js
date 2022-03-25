@@ -1,8 +1,9 @@
 
+/* bardo */
 
 function tratamentoPergunta1() {
 
-    var pergunta = prompt('Acorde: \n a - Bardo \n s - Caçadora \n d - mensageiro');
+    var pergunta = prompt('Acorde: \n a - Bardo \n s - Caçadora \n d - Mensageiro');
     if (pergunta == 'a') {
         window.location.href='./bard/bard1.html';
     }
@@ -10,7 +11,7 @@ function tratamentoPergunta1() {
         window.location.href='./hunter/hunter1.html';
     }
     else if (pergunta == 'd') {
-        window.location.href='./messenger/messenger1.html';
+        window.location.href='./messenger/mess1.html';
     }
     else {
         tratamentoPergunta1()
@@ -304,7 +305,7 @@ function tratamentoPergunta19() {
 
 function tratamentoPergunta20() {
 
-    var pergunta = prompt('O que você faz? \n a -Intervenho na confusão. \n s - Não é problema meu. Me dirijo a porta para sair para caçar.');
+    var pergunta = prompt('O que você faz? \n a - Intervenho na confusão. \n s - Não é problema meu. Me dirijo a porta para sair para caçar.');
 
     if (pergunta == 'a') {
         window.location.href='./hunter4.html';
