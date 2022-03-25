@@ -11,7 +11,7 @@ function tratamentoPergunta1() {
         window.location.href='./hunter/hunter1.html';
     }
     else if (pergunta == 'd') {
-        window.location.href='./messenger/mess1.html';
+        window.location.href='./messenger/mess2.html';
     }
     else {
         tratamentoPergunta1()
