@@ -10,7 +10,7 @@ function tratamentoPergunta1() {
         window.location.href='./hunter/hunter1.html';
     }
     else if (pergunta == 'd') {
-        window.location.href='./menseger/menseger1.html';
+        window.location.href='./messenger/messenger1.html';
     }
     else {
         tratamentoPergunta1()
@@ -534,16 +534,21 @@ function tratamentoPergunta34() {
 }
 
 
+/*messenger*/
+
 
 function tratamentoPergunta35() {
 
-    var pergunta = prompt('O que você faz? \n a - . \n s - .');
+    var pergunta = prompt('Você se dirige ao bar? \n a - Uma caneca de cerveja, por favor. \n s - Uma caneca de vinho, por favor. \n d - Uma caneca de suco, por favor.');
 
     if (pergunta == 'a') {
-        window.location.href='./.html';
+        window.location.href='./mess3.html';
     }
     else if (pergunta == 's') {
-        window.location.href='./.html';
+        window.location.href='./mess3.html';
+    }
+    else if (pergunta == 'd') {
+        window.location.href='./mess3.html';
     }
     else {
         tratamentoPergunta35()
@@ -552,15 +557,279 @@ function tratamentoPergunta35() {
 
 function tratamentoPergunta36() {
 
-    var pergunta = prompt('O que você faz? \n a - . \n s - .');
+    var pergunta = prompt('O que você faz? \n a - Apenas observo. \n s - Mostro minha insatisfação com as canções do bardo. \n d - Rio discretamente.');
 
     if (pergunta == 'a') {
-        window.location.href='./.html';
+        window.location.href='./mess5b.html';
     }
     else if (pergunta == 's') {
-        window.location.href='./.html';
+        window.location.href='./mess4b.html';
+    }
+    else if (pergunta == 'd') {
+        window.location.href='./mess4.html';
     }
     else {
         tratamentoPergunta36()
     }
 }
+
+function tratamentoPergunta37() {
+
+    var pergunta = prompt('O que você faz? \n a - Qual é? A canção é boa e as piadas são engraçadas. \n s - Não é nada, lembrei de uma piada.');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess5.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess5b.html';
+    }
+    else {
+        tratamentoPergunta37()
+    }
+}
+
+function tratamentoPergunta38() {
+
+    var pergunta = prompt('O que você faz? \n a - Questiono porque eles estão se divertindo tanto. \n s - Já demonstrei minha insatisfação.');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess5c.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess5b.html';
+    }
+    else {
+        tratamentoPergunta38()
+    }
+}
+function tratamentoPergunta39() {
+
+    var pergunta = prompt('O que você faz? \n a - Vou para outro canto do saguão. \n s - Argumento que ele está exagerando.');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess5b.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess6.html';
+    }
+    else {
+        tratamentoPergunta39()
+    }
+}
+
+function tratamentoPergunta40() {
+
+    var pergunta = prompt('O que você faz? \n a - Acuso ele de estar mentindo. \n s - Aponto como ele está bêbado e implicante. \n d - Parto pra violência. ');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess7.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess7.html';
+    }
+    else if (pergunta == 'd') {
+        window.location.href='./mess8.html';
+    }
+    else {
+        tratamentoPergunta40()
+    }
+}
+
+function tratamentoPergunta41() {
+
+    var pergunta = prompt('O que você faz? \n a - Me protejo próximo à caçadora. \n s - Me junto ao cocheiro e corro para a caverna. \n d - Grito aos atacantes que não vamos criar problemas e vamos descer.');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess11.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess14.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess10.html';
+    }
+    else {
+        tratamentoPergunta41()
+    }
+}
+
+function tratamentoPergunta42() {
+
+    var pergunta = prompt('O que você faz? \n a - Permaneço escondido na carruagem. \n s - Corro para fora da carruagem.');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess12.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess13.html';
+    }
+    else {
+        tratamentoPergunta42()
+    }
+}
+
+function tratamentoPergunta43() {
+
+    var pergunta = prompt('O que você faz? \n a - Permaneço escondido na carruagem. \n s - Corro para fora da carruagem.');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess12.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess13.html';
+    }
+    else {
+        tratamentoPergunta43()
+    }
+}
+
+function tratamentoPergunta44() {
+
+    var pergunta = prompt('O que você faz? \n a - Corro para a caverna próxima para onde foi o cocheiro. \n s - Corro para a floresta para me esconder no escuro. \n d - Me afasto da carroça e me rendo.');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess14.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess21.html';
+    }
+    else if (pergunta == 'd') {
+        window.location.href='./mess13b.html';
+    }
+    else {
+        tratamentoPergunta44()
+    }
+}
+
+function tratamentoPergunta45() {
+
+    var pergunta = prompt('O que você faz? \n a - Entro mais a fundo a procura dele. \n s - Grito para que ele apareça.');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess16.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess15.html';
+    }
+    else {
+        tratamentoPergunta45()
+    }
+}
+
+function tratamentoPergunta46() {
+
+    var pergunta = prompt('O que você faz? \n a - Aguardo que ele apareça. \n s - Vou atrás dele.');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess17.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess16.html';
+    }
+    else {
+        tratamentoPergunta46()
+    }
+}
+
+function tratamentoPergunta47() {
+
+    var pergunta = prompt('O que você faz? \n a - Esquerda. \n s - Direita. \n d - Voltar');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess18.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess18.html';
+    }
+    else if (pergunta == 'd') {
+        window.location.href='./mess17.html';
+    }
+    else {
+        tratamentoPergunta47()
+    }
+}
+
+
+function tratamentoPergunta48() {
+
+    var pergunta = prompt('O que você faz? \n a - Esquerda. \n s - Direita. \n d - Voltar à entrada.');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess20.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess20.html';
+    }
+    else if (pergunta == 'd') {
+        window.location.href='./mess19.html';
+    }    
+    else {
+        tratamentoPergunta48()
+    }
+}
+
+function tratamentoPergunta49() {
+
+    var pergunta = prompt('O que você faz? \n a - Esquerda. \n s - Direita.');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess20.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess20.html';
+    }
+    
+    else {
+        tratamentoPergunta49()
+    }
+}
+
+function tratamentoPergunta50() {
+
+    var pergunta = prompt('O que você faz? \n a - Esquerda. \n s - Direita.');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess20b.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess20b.html';
+    }
+    
+    else {
+        tratamentoPergunta50()
+    }
+}
+
+function tratamentoPergunta51() {
+
+    var pergunta = prompt('O que você faz? \n a - Esquerda. \n s - Direita.');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess20.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess20.html';
+    }
+    
+    else {
+        tratamentoPergunta51()
+    }
+}
+
+function tratamentoPergunta52() {
+
+    var pergunta = prompt('O que você faz? \n a - . \n s - .');
+
+    if (pergunta == 'a') {
+        window.location.href='./mess.html';
+    }
+    else if (pergunta == 's') {
+        window.location.href='./mess.html';
+    }
+    
+    else {
+        tratamentoPergunta52()
+    }
+}
+
+
