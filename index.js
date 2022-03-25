@@ -270,6 +270,8 @@ function tratamentoPergunta17() {
     }
 }
 
+/*hunter*/
+
 function tratamentoPergunta18() {
 
     var pergunta = prompt('O que você faz? \n a - . \n s - .');
